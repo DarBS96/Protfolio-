@@ -12,6 +12,7 @@ a {
 
 body {
     background-color: #B4ECE3;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -30,6 +31,16 @@ h1 {
     margin-right: auto;
     width: 90%;
     margin-bottom: 10%;
+}
+
+.developer-institute {
+    color: black;
+    font-family: "Raleway";
+    font-size: 1rem;
+}
+
+.developer-institute:hover {
+    color: rgb(250, 162, 177);
 }
 
 .card-img-top {
