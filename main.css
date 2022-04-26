@@ -36,7 +36,7 @@ h1 {
 .developer-institute {
     color: black;
     font-family: "Raleway";
-    font-size: 1rem;
+    /* font-size: 1rem;  check how to connect the font-size with the whole paragraph */
 }
 
 .developer-institute:hover {
@@ -56,7 +56,18 @@ h1 {
     height: 300px;
 }
 
+#crousel-imgs {
+    max-height: 600px;
+}
+
 .mask {
     padding-left: 25%;
     padding-right: 25%;
+}
+
+@media screen and (max-width: 992px) {
+    .about-me-title {
+        text-align: center;
+        margin-top: 15px;
+    }
 }

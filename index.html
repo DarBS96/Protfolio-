@@ -55,14 +55,15 @@
     </div>
   </div>
   <!-- Background image -->
+   <!-- About me -->
 </header>
 <section class="about-me container mt-5" id="aboutMe"> 
 <div class="row">
-    <div class="col-5">
+    <div class="col-lg-5">
     <img class="img-profile mx-auto d-block" src="images/profile-img.jpg" alt="profile-img">
     </div>
-    <div class="col-7">
-  <h1>About me</h1>
+    <div class="col-lg-7">
+  <h1 class="about-me-title">About me</h1>
     <p> Hey there everyone, I am so happy to welcome you here to my website! My name is Dar and I am passionate about web developing and bringing to the world new and innovative projects. 
         <br>
         About a year ago I was exposed to the world of web development and I completely fell in love with this unlimited field, especially its ability to express and combine creativity and logic.
@@ -72,31 +73,37 @@
                         new things.</p>
                     </div>
                 </div>
+                <!-- About me -->
+                <!-- Portfolio -->
                 </section>
-                <section class="portfolio container" id="portfolio">
+                <section class="portfolio container " id="portfolio">
                     <h1 class="text-center py-5">Portfolio</h1>
-                    <div class="row">
-
-                        <div class="col-4">
-                            <img class="portfolio-imgs" src="./images/portfolio/Classic.jpg" alt="">
+                    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!-- Adding name to the project -->
+                                <p class="text-center">calender</p>
+                                <!-- insert img inside <a> and make it clickable to the project -->
+                                <a href="https://google.com" target="_blank"> <img src="./images/blog/imag2.jpg" class="d-block w-75 m-auto" id="crousel-imgs" alt="..."></a>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/face2.jpg" class="d-block w-75 m-auto" id="crousel-imgs" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/face3.jpg" class="d-block w-75 m-auto" id="crousel-imgs" alt="...">
+                            </div>
                         </div>
-                        <div class="col-4">
-                            <img class="portfolio-imgs" src="./images/portfolio/electric.png" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="portfolio-imgs" src="./images/portfolio/port1.png" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="portfolio-imgs" src="./images/portfolio/port11.png" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="portfolio-imgs" src="./images/portfolio/port13.png" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="portfolio-imgs" src="./images/portfolio/port3.png" alt="">
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
                     </div>
                 </section>
+                <!-- Portfolio -->
                 <section class="blog container py-5" id="blog">
                     <h1 class="pb-3 text-center">Blog</h1>
                     <div class="row justify-content-between ">
