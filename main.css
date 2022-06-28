@@ -69,6 +69,10 @@ h1 {
     font-size: 2rem;
 }
 
+.prevNexyBtns {
+    height: 83px;
+}
+
 @media screen and (max-width: 992px) {
     .about-me-title {
         text-align: center;
