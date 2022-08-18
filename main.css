@@ -20,16 +20,35 @@ h1 {
 }
 
 .title {
-    color: #2bc4ad;
+    color: #a0a6a5;
     font-family: cursive;
 }
 
-.portfolio-imgs {
+.projects-container {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-container {
+    height: 300px;
+    width: 280px;
+}
+
+
+/* .portfolio-imgs {
     height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 150px;
+} */
+
+.project-img {
+    height: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
 }
 
 .developer-institute {
@@ -75,6 +94,8 @@ h1 {
 
 .appDesription {
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 992px) {
