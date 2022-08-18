@@ -48,7 +48,8 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 280px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 .developer-institute {
