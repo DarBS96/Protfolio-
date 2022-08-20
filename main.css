@@ -17,16 +17,20 @@ body {
 
 h1 {
     color: rgb(14, 51, 51);
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .title {
-    color: #a0a6a5;
+    color: #37e2d5;
     font-family: cursive;
 }
 
 .projects-container {
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .project-container {
@@ -34,21 +38,13 @@ h1 {
     width: 280px;
 }
 
-
-/* .portfolio-imgs {
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-} */
-
 .project-img {
     height: 260px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
     width: 300px;
+    /* margin: auto; */
     border-radius: 10px;
 }
 
@@ -68,6 +64,10 @@ h1 {
 
 .card {
     padding: 0;
+}
+
+.see-more {
+    margin-top: 40px;
 }
 
 .img-profile {
@@ -103,5 +103,17 @@ h1 {
     .about-me-title {
         text-align: center;
         margin-top: 15px;
+    }
+    .projects-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .project-container {
+        width: 320px;
+    }
+    .appDesription {
+        margin: auto;
+        margin-bottom: 10px;
     }
 }
