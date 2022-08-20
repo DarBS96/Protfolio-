@@ -27,7 +27,7 @@ h1 {
 }
 
 .projects-container {
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
     /* align-items: center; */
