@@ -132,7 +132,7 @@ h1 {
         margin-top: 10px;
     }
     .bg-image {
-        height: 100px;
+        height: 320px;
         background-image: url('https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     }
 }
