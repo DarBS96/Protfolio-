@@ -125,7 +125,7 @@ h1 {
     }
     .project-container {
         justify-content: center !important;
-        margin: auto !important;
+        width: auto !important;
     }
     .main-title {
         width: 400px;
@@ -141,10 +141,10 @@ h1 {
     }
     .bg-image {
         justify-content: center !important;
-        margin: auto !important;
+        width: auto !important;
         padding: 0;
-        height: 200px;
-        width: 100px;
+        height: 100px;
+        width: 300px;
         margin: auto;
         background-image: url('https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     }
