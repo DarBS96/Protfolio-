@@ -21,6 +21,21 @@ h1 {
     font-weight: 600;
 }
 
+.main-title {
+    color: rgb(14, 51, 51);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bg-image {
+    background-image: url('https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .title {
     color: #37e2d5;
     font-family: cursive;
@@ -29,7 +44,7 @@ h1 {
 .project-container {
     /* height: 300px; */
     /* width: 280px; */
-    width: 100% !;
+    width: 100% !important;
 }
 
 .projects-container {
@@ -104,21 +119,19 @@ h1 {
     text-align: center;
 }
 
-@media screen and (max-width: 992px) {
-    .about-me-title {
-        text-align: center;
-        margin-top: 15px;
-    }
-    .projects-container {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        /* justify-content: center; */
-    }
+@media (max-width: 575.98px) {
     .project-container {
-        width: 320px;
+        width: auto;
     }
-    .appDesription {
-        margin: auto;
-        margin-bottom: 10px;
+    .main-title {
+        width: 400px;
+        font-size: 25px;
+    }
+    h1 {
+        margin-top: 10px;
+    }
+    .bg-image {
+        height: 320px;
+        background-image: url('https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     }
 }
