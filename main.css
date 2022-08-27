@@ -120,19 +120,26 @@ h1 {
 }
 
 @media (max-width: 575.98px) {
+    body {
+        background-color: #C1EFFF;
+    }
     .project-container {
-        width: auto;
+        justify-content: center !important;
+        width: auto !important;
     }
     .main-title {
         width: 400px;
         font-size: 25px;
-        color: black;
+        color: white
+    }
+    .title {
+        color: #87f5ec;
     }
     h1 {
         margin-top: 10px;
     }
     .bg-image {
-        height: 320px;
-        background-image: url('https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        height: 300px;
+        background-image: url('https://images.pexels.com/photos/1477833/pexels-photo-1477833.jpeg?auto=compress&cs=tinysrgb&w=600');
     }
 }
