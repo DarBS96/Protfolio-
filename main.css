@@ -129,16 +129,18 @@ h1 {
     }
     .main-title {
         width: 400px;
-        font-size: 25px;
+        font-size: 30px;
         color: white
     }
     .title {
         color: #87f5ec;
+        font-size: 20px;
     }
     h1 {
         margin-top: 10px;
     }
     .bg-image {
+        background-size: auto;
         height: 300px;
         background-image: url('https://images.pexels.com/photos/1477833/pexels-photo-1477833.jpeg?auto=compress&cs=tinysrgb&w=600');
     }
