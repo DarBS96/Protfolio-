@@ -125,7 +125,7 @@ h1 {
     }
     .project-container {
         justify-content: center !important;
-        width: auto !important;
+        margin: auto !important;
     }
     .main-title {
         width: 400px;
@@ -140,6 +140,8 @@ h1 {
         margin-top: 10px;
     }
     .bg-image {
+        justify-content: center !important;
+        margin: auto !important;
         padding: 0;
         height: 200px;
         width: 100px;
